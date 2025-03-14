@@ -26,7 +26,7 @@ author:
   name             : "秋光"
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
-  location         : "地球"
+  location         : #"地球"
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "qiuguang738@gmail.com" 
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -102,14 +102,14 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name'， 'email'， 'url'， 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['name'， 'email'， 'message']
   transforms:
     email                : "md5"
   generatedFields:
@@ -156,7 +156,7 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
+  - 文件
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -273,7 +273,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      评论: true
   # _talks
   - scope:
       path: ""
