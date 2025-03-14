@@ -22,7 +22,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://s21.ax1x.com/2025/03/14/pEaQkqJ.jpg"
   name             : "秋光"
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
